@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Venta de Plantas y Jardinería</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Venta de Plantas y Jardinería</h1>
+    </header>
+    <main>
+        <section id="simulador">
+            <h2>Simulador de Venta de Plantas</h2>
+            <p>Ingresa el nombre de la planta:</p>
+            <input type="text" id="planta-nombre" placeholder="Nombre de la planta">
+            <p>Ingresa el precio de la planta:</p>
+            <input type="number" id="planta-precio" placeholder="Precio de la planta">
+            <button onclick="agregarPlanta()">Agregar planta</button>
+            <h3>Lista de plantas:</h3>
+            <ul id="planta-lista"></ul>
+            <p>Total de plantas: <span id="total-plantas">0</span></p>
+            <p>Total a pagar: <span id="total-pagar">0</span></p>
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
